@@ -1,22 +1,53 @@
 # HKNAS: Classification of Hyperspectral Imagery Based on Hyper Kernel Neural Architecture Search (TNNLS 2023)
 
-1dhkcls
+## Di Wang, Bo Du, Liangpei Zhang and Dacheng Tao
 
-CUDA_VISIBLE_DEVICES=0 python main.py \
-    --flag 'honghu' --exp_num 10 \
-    --block_num 3 --layer_num 1
+### Pytorch implementation of our paper for Neural Architecture Search based hyperspectral image classification.
 
-3dhkcls
+<table>
+<tr>
+<td><img src=Figs/space.png width=565>
+<br> 
+<figcaption align = "left"><b>Fig.1 - Search Space. </b></figcaption></td>
+<td><img src=Figs/algorithm.png width=300>
+<br> 
+<figcaption align = "right"><b>Fig.2 - Search Algorithm. </b></figcaption> </td>
+</tr>
+</table>
 
-CUDA_VISIBLE_DEVICES=0 python main.py \
-    --flag 'honghu' --exp_num 1 \
-    --block_num 3 --layer_num 3
+## Usage
+1. Install Pytorch 1.9 with Python 3.8.
+2. Clone this repo.
+```
+git clone https://github.com/DotWang/HKNAS.git
+```
+3. For **3-D HK-CLS** and **3-D HK-SEG**, setting the 3-D convolution form in ***main.py***
+4. Search, Training, Validation, Testing and Predicion (Taka an example of [WHU-Hi-HongHu](http://rsidea.whu.edu.cn/resource_WHUHi_sharing.htm) dataset):
 
-3dhkseg
+- 1-D HK-CLS
 
-CUDA_VISIBLE_DEVICES=0 python main.py \
-    --flag 'honghu' --exp_num 3 \
-    --block_num 3 --layer_num 1
+```
+cd 1DHKCLS
+CUDA_VISIBLE_DEVICES=0 python main.py --flag 'honghu' --exp_num 10 --block_num 3 --layer_num 1
+```
+
+- 3-D HK-CLS
+
+```
+cd 3DHKCLS
+CUDA_VISIBLE_DEVICES=0 python main.py --flag 'honghu' --exp_num 10 --block_num 3 --layer_num 3
+```
+
+- 3-D HK-SEG
+
+```
+cd 3DHKSEG
+CUDA_VISIBLE_DEVICES=0 python main.py --flag 'honghu' --exp_num 10 --block_num 3 --layer_num 1
+```
+
+## Citation
+
+To be continued.
 
 ## Relevant Projects
 [1] <strong> Pixel and Patch-level Hyperspectral Image Classification </strong> 
