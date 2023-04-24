@@ -1,6 +1,22 @@
 # HKNAS: Classification of Hyperspectral Imagery Based on Hyper Kernel Neural Architecture Search (TNNLS 2023)
 
-To be continued.
+1dhkcls
+
+CUDA_VISIBLE_DEVICES=6 python main.py \
+    --flag 'honghu' --exp_num 10 \
+    --block_num 3 --layer_num 1
+
+3dhkcls
+
+CUDA_VISIBLE_DEVICES=0 python main.py \
+    --flag 'honghu' --exp_num 1 \
+    --block_num 3 --layer_num 3
+
+3dhkseg
+
+CUDA_VISIBLE_DEVICES=5 python main.py \
+    --flag 'honghu' --exp_num 3 \
+    --block_num 3 --layer_num 1
 
 ## Relevant Projects
 [1] <strong> Pixel and Patch-level Hyperspectral Image Classification </strong> 
