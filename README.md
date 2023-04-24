@@ -2,7 +2,7 @@
 
 1dhkcls
 
-CUDA_VISIBLE_DEVICES=6 python main.py \
+CUDA_VISIBLE_DEVICES=0 python main.py \
     --flag 'honghu' --exp_num 10 \
     --block_num 3 --layer_num 1
 
@@ -14,7 +14,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 
 3dhkseg
 
-CUDA_VISIBLE_DEVICES=5 python main.py \
+CUDA_VISIBLE_DEVICES=0 python main.py \
     --flag 'honghu' --exp_num 3 \
     --block_num 3 --layer_num 1
 
