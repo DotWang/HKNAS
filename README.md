@@ -47,7 +47,14 @@ CUDA_VISIBLE_DEVICES=0 python main.py --flag 'honghu' --exp_num 10 --block_num 3
 
 ## Citation
 
-To be continued.
+```
+@article{hknas,
+  title={HKNAS: Classification of Hyperspectral Imagery Based on Hyper Kernel Neural Architecture Search},
+  author={Di Wang, Bo Du, Liangpei Zhang and Dacheng Tao},
+  journal={arXiv preprint arXiv:2304.11701},
+  year={2023}
+}
+```
 
 ## Relevant Projects
 [1] <strong> Pixel and Patch-level Hyperspectral Image Classification </strong> 
