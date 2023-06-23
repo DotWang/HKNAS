@@ -48,12 +48,16 @@ CUDA_VISIBLE_DEVICES=0 python main.py --flag 'honghu' --exp_num 10 --block_num 3
 ## Citation
 
 ```
-@article{hknas,
-  title={HKNAS: Classification of Hyperspectral Imagery Based on Hyper Kernel Neural Architecture Search},
-  author={Di Wang, Bo Du, Liangpei Zhang and Dacheng Tao},
-  journal={arXiv preprint arXiv:2304.11701},
-  year={2023}
-}
+@ARTICLE{hknas,
+  author={Wang, Di and Du, Bo and Zhang, Liangpei and Tao, Dacheng},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={HKNAS: Classification of Hyperspectral Imagery Based on Hyper Kernel Neural Architecture Search}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-15},
+  doi={10.1109/TNNLS.2023.3270369}}
+
 ```
 
 ## Relevant Projects
