@@ -2,7 +2,7 @@
 
 ## Di Wang, Bo Du, Liangpei Zhang and Dacheng Tao
 
-### Pytorch implementation of our paper for Neural Architecture Search based hyperspectral image classification.
+### Pytorch implementation of our [paper](https://arxiv.org/abs/2304.11701) for Neural Architecture Search based hyperspectral image classification.
 
 <table>
 <tr>
@@ -70,9 +70,9 @@ CUDA_VISIBLE_DEVICES=0 python main.py --flag 'honghu' --exp_num 10 --block_num 3
  <br><em> &ensp; &ensp; Di Wang<sup>&#8727;</sup>, Bo Du, and Liangpei Zhang</em>
  
 [3] <strong> Graph Convolution based Hyperspectral Image Classification </strong> 
-<br> &ensp; &ensp; Spectral-Spatial Global Graph Reasoning for Hyperspectral Image Classification, IEEE TNNLS, 2023 | [Paper](https://arxiv.org/abs/2106.13952) | [Github](https://github.com/DotWang/SSGRN)
+<br> &ensp; &ensp; Spectral-Spatial Global Graph Reasoning for Hyperspectral Image Classification, IEEE TNNLS, 2023 | [Paper](https://ieeexplore.ieee.org/document/10114988) | [Github](https://github.com/DotWang/SSGRN)
  <br><em> &ensp; &ensp; Di Wang<sup>&#8727;</sup>, Bo Du, and Liangpei Zhang</em>
 
 [4] <strong> ImageNet Pretraining and Transformer based Hyperspectral Image Classification </strong> 
-<br> &ensp; &ensp; DCN-T: Dual Context Network with Transformer for Hyperspectral Image Classification, IEEE TIP, 2023 | [Paper](https://arxiv.org/abs/2304.09915) | [Github](https://github.com/DotWang/DCN-T)
+<br> &ensp; &ensp; DCN-T: Dual Context Network with Transformer for Hyperspectral Image Classification, IEEE TIP, 2023 | [Paper](https://ieeexplore.ieee.org/document/10112639) | [Github](https://github.com/DotWang/DCN-T)
  <br><em> &ensp; &ensp; Di Wang<sup>&#8727;</sup>, Jing Zhang, Bo Du, Liangpei Zhang, and Dacheng Tao</em>
