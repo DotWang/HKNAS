@@ -2,7 +2,7 @@
 
 ## Di Wang, Bo Du, Liangpei Zhang and Dacheng Tao
 
-### Pytorch implementation of our [paper](https://arxiv.org/abs/2304.11701) for Neural Architecture Search based hyperspectral image classification.
+### Pytorch implementation of our [paper](https://ieeexplore.ieee.org/document/10159237) for Neural Architecture Search based hyperspectral image classification.
 
 <table>
 <tr>
