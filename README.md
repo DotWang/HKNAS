@@ -52,11 +52,13 @@ CUDA_VISIBLE_DEVICES=0 python main.py --flag 'honghu' --exp_num 10 --block_num 3
   author={Wang, Di and Du, Bo and Zhang, Liangpei and Tao, Dacheng},
   journal={IEEE Transactions on Neural Networks and Learning Systems}, 
   title={HKNAS: Classification of Hyperspectral Imagery Based on Hyper Kernel Neural Architecture Search}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-15},
+  year={2024},
+  volume={35},
+  number={10},
+  pages={13631-13645},
+  keywords={Computer architecture;Kernel;Structural engineering;Optimization;Search problems;Task analysis;Hyperspectral imaging;Convolution decomposition;hyper kernel;hyperspectral image (HSI) classification;neural architecture search (NAS)},
   doi={10.1109/TNNLS.2023.3270369}}
+
 
 ```
 
